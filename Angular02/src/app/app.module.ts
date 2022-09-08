@@ -12,6 +12,7 @@ import { SegurancaService } from "./seguranca.service";
 import { HttpClientModule } from "@angular/common/http";
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { ClientesComponent } from './clientes/clientes.component';
+import { PagInicialComponent } from './pag-inicial/pag-inicial.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ClientesComponent } from './clientes/clientes.component';
     LoginComponent,
     FuncionariosComponent,
     ClientesComponent,
+    PagInicialComponent,
   ],
   imports: [
     FormsModule,

@@ -4,6 +4,7 @@ import { ClientesComponent } from './clientes/clientes.component';
 import { DiretivaForComponent } from './diretiva-for/diretiva-for.component';
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { LoginComponent } from './login/login.component';
+import { PagInicialComponent } from './pag-inicial/pag-inicial.component';
 import { SegurancaService } from './seguranca.service';
 
 const routes: Routes = [
@@ -27,7 +28,11 @@ const routes: Routes = [
     path: "clientes",
     component: ClientesComponent
 
-  }
+  },
+  {
+    path: "pagInicial",
+    component: PagInicialComponent
+  },
 
 
 ];

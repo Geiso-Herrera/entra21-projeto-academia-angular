@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://ae01.alicdn.com/kf/HTB15ucUDuGSBuNjSspbq6AiipXaY/Papel-de-parede-com-foto-3d-para-paredes-mural-de-academia-3-d-personalizado-retr-nost.jpg');
+background-size: auto;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(14, 10, 10, 0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #e8e9de;
+}
+
+.social_icon span:hover{
+color: rgb(233, 229, 12);
+cursor: pointer;
+}
+
+.card-header h3{
+color: rgb(241, 245, 20);
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: rgb(127, 211, 18);
+}
+
+.links{
+color: rgb(248, 246, 246);
+background-color: rgb(29, 56, 56);
+}
+
+.links a{
+margin-left: 5px;
+color: #FFC312;
+}
+
+
+
+

@@ -8,6 +8,9 @@ import { SegurancaService } from '../seguranca.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+Login() {
+throw new Error('Method not implemented.');
+}
 
   constructor(private router: Router, private seguranca:
     SegurancaService) { }
