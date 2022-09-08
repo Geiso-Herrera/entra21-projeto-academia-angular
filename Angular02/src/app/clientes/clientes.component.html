@@ -1,0 +1,17 @@
+<p>Clientes Funciona!</p>
+<input type="text" [(ngModel)]="nome">
+<button class="btn btn-success" (click)="adicionar()">Add</button>
+<table class="table table-bordered">
+    <thead>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Ações</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cliente of clientes; let i = index">
+            <td>{{i}}</td>
+            <td>{{cliente}}</td>
+            <td><button class="btn btn-danger" (click)="deletar(i)">deletar</button></td>
+        </tr>
+    </tbody>
+</table>

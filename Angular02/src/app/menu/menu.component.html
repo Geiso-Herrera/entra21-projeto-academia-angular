@@ -1,0 +1,54 @@
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a routerLink="/" class="brand-link">
+      <img src="./../favicon.ico" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+        style="opacity: 0.8" />
+      <span class="brand-text font-weight-light">Academia Super Xandão</span>
+    </a>
+
+    <div class="sidebar">
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+               Funcionarios
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li *ngFor="let link0 of linksFun" class="nav-item">
+                <a [routerLink]="link0.rota" class="nav-link">
+                    <i [class]="link0.cor"></i>
+                    <p class="text">{{link0.textContent}}</p>
+                </a>
+            </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="sidebar">
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+               Clientes
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li *ngFor="let link1 of linksCli" class="nav-item">
+                <a [routerLink]="link1.rota" class="nav-link">
+                    <i [class]="link1.cor"></i>
+                    <p class="text">{{link1.textContent}}</p>
+                </a>
+            </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>

@@ -1,0 +1,17 @@
+<p>Funcionarios Funciona!</p>
+<input type="text" [(ngModel)]="nome">
+<button class="btn btn-success" (click)="adicionar()">Add</button>
+<table class="table table-bordered">
+    <thead>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Ações</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let funcionario of funcionarios; let i = index">
+            <td>{{i}}</td>
+            <td>{{funcionario}}</td>
+            <td><button class="btn btn-danger" (click)="deletar(i)">Deletar</button></td>
+        </tr>
+    </tbody>
+</table>
